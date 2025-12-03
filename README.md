@@ -1,4 +1,23 @@
 # DLL Injector & Inline Hook with Trampoline (Windows)
+
+# DISCLAIMER - Educational Purpose 
+
+This project is for educational and research purposes only.
+It demonstrates how Windows handles code, memory protection (VirtualProtect), and control‑flow redirection on x64 systems.
+All injection and hooking are performed on a controlled sample program included in the repository.
+It must not be used on third‑party software, games, or security‑protected applications.
+
+The goal is to explain:
+
+- how inline hooks work internally
+- why trampolines are required on 64‑bit architectures
+- how Windows loads DLLs and manages executable memory
+- instruction patching and ABI constraints
+
+This is not a cheat, bypass, or malware tool.
+It is a purely technical demonstration aimed at system programming and low‑level engineering topics.
+
+
 ## Overview
 
 This project demonstrates a `Windows DLL` injection combined with a 64‑bit inline hook using a trampoline.
